@@ -1,0 +1,78 @@
+.dialWrapper {
+  width: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  width: 100%;
+}
+
+input{
+  padding:8px;
+  display:block;
+  border:none;
+  border-bottom:1px solid #ccc
+}
+
+.dialNumpadHWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.dialNumber {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.incomingWrapper {
+  width: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionButton {
+  display: flex;
+  width: 136px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.actionButton:hover{
+  background-color: #a2d2fc;
+}
+
+.dialActionButton {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.dialActionButton:hover{
+  background-color: #e39d9d;
+}
+
+#errorMessage {
+  color: red;
+}
